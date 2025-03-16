@@ -8,7 +8,7 @@ from collections import Counter
 import google.generativeai as genai
 
 # Configure Gemini API for AI-based responses
-GEMINI_API_KEY = "AIzaSyACzCuP8i8a4beKuX1m6rlMtkxEEc3gq_"
+GEMINI_API_KEY = ""#your API KEY goes here
 genai.configure(api_key=GEMINI_API_KEY)
 
 gemini_model = genai.GenerativeModel("gemini-2.0-flash")
